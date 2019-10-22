@@ -34,19 +34,56 @@ body{
 
 .pixels-text{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 80px;
+    font-size: 100px;
     color: white;
     text-align: center;
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 0;
     right: 0;
+}
+
+.container{
+    width: 90%;
+    height: 300px;
+    background-color: thistle;
+    margin: 0 auto;
+}
+
+.section{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width: 1000px){
     body{
         background-color: salmon;
     }
+    .pixels-text{
+      
+        color: lightgreen;
+        font-size: 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    .section{
+        float: none;
+        margin-left: 0px;
+    }
+    .section:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .container{
+        width: 100%;
+    }
+  
+    
 
 }
 
@@ -54,12 +91,26 @@ body{
     body{
         background-color: sandybrown;
     }
+    .pixels-text{
+      
+        color: lightcoral;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
 
 }
 
 @media only screen and (max-width: 600px){
     body{
         background-color: yellowgreen;
+    }
+    .pixels-text{
+      
+        color: lightblue;
+        font-size: 30px;
+        font-family: monospace;
+        
     }
 
 }
