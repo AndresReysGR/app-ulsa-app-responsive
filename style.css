@@ -45,7 +45,8 @@ body{
 
 .container{
     width: 90%;
-    height: 300px;
+    min-height: 100px;
+    overflow: hidden;
     background-color: thistle;
     margin: 0 auto;
 }
